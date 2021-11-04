@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-catch-destructuring",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Avoid Safari10 ES6 bug by not destructuring in catch blocks",
   "keywords": [
     "eslint",
