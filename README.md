@@ -1,6 +1,8 @@
 # eslint-plugin-no-catch-destructuring
 
-Avoid Safari10 ES6 bug by not destructuring in catch blocks
+Avoid Safari <=13 ES6 bug by not destructuring in catch blocks
+
+If you're curious, here's the specific bug: https://bugs.webkit.org/show_bug.cgi?id=189914
 
 ## Installation
 

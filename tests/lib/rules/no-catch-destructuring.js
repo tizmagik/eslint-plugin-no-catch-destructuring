@@ -6,7 +6,8 @@ const ruleTester = new RuleTester({ parserOptions: { ecmaVersion: 2015 } });
 const errors = [
   {
     type: "CatchClause",
-    message: "Avoid catch destructuring",
+    message:
+      "Avoid destructuring in catch blocks to workaround critical Safari <=v13 ES6 bug",
   },
 ];
 
