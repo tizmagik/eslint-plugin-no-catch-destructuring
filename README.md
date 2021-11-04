@@ -4,6 +4,8 @@ Avoid Safari <=13 ES6 bug by not destructuring in catch blocks
 
 If you're curious, here's the specific bug: https://bugs.webkit.org/show_bug.cgi?id=189914
 
+Best to pair this with the [no-shadow](https://eslint.org/docs/rules/no-shadow) eslint rule.
+
 ## Installation
 
 You'll first need to install [ESLint](https://eslint.org/):
